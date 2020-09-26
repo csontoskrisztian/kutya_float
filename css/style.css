@@ -44,7 +44,10 @@ header p {
 
 nav {
     width: 25%;
-    float: left;
+}
+
+nav h3{
+    color: white;
 }
 
 nav ul {
@@ -67,10 +70,11 @@ nav a {
 nav a:hover {
     padding: 15px;
     background: rgba(2550, 255, 255, 0.1);
+    color: #3CB371;
 }
 
 main {
-    max-width: 75%;
+    width: 75%;
     background: white;
     float: left;
     padding: 30px;
@@ -80,11 +84,35 @@ main p {
     text-align: justify;
     margin: 0;
     padding-bottom: 25px;
+    text-indent: 10px;
 }
 
 main h1 {
     margin: 0;
     font-size: 48px;
+}
+
+main h2 {
+    margin: 5px 0;
+}
+
+main h4 {
+    margin: 0;
+}
+
+main ul li{
+    list-style: url("../Images/li.png");
+    margin: 0;
+    padding: 5px 0;
+}
+
+main img {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
 }
 
 .card {
@@ -115,6 +143,7 @@ main h1 {
 }
 
 .card .card-content p {
+    text-indent: 0;
     margin: 0;
     padding: 5px;
     text-align: left;
@@ -142,11 +171,11 @@ footer a {
     color: black;
 }
 
-footer .left {
+.left {
     float: left;
 }
 
-footer .right {
+.right {
     float: right;
 }
 
