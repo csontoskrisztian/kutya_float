@@ -11,23 +11,30 @@ body {
 }
 
 header {
-    background: url("../Images/header.jpg") no-repeat;
+    background: url("../Images/header.jpg") no-repeat center;
     color: white;
     font-size: 80px;
     font-weight: 700;
     padding: 10px 10px;
     text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    min-height: 300px;
+    max-width: 1000px;
+    position: relative;
 }
 
+
 header p {
+    margin: 0;
     width: fit-content;
-    position: relative;
-    top: -80px;
-    right: -680px;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    right: 40%;
 }
 
 .wrapper {
     max-width: 1000px;
+    min-width: 500px;
     margin: 0 auto;
 }
 
@@ -63,7 +70,7 @@ nav a:hover {
 }
 
 main {
-    width: 75%;
+    max-width: 75%;
     background: white;
     float: left;
     padding: 30px;
@@ -82,19 +89,24 @@ main h1 {
 
 .card {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-    margin: 0;
+    margin: 15px;
     padding: 10px;
-    width: 280px;
+    width: 300px;
     height: auto;
+    float: left;
 }
 
 .card .card-image {
-    height: 200px;
+    height: 280px;
+    width: 280px;
     background: top center;
 }
 
 .card .card-content{
     padding: 5px;
+    height: 180px;
+
+    position: relative;
 }
 
 .card .card-content h2 {
@@ -114,6 +126,10 @@ main h1 {
     padding: 5px 10px;
     display: inline-block;
     text-decoration: none;
+
+    position:absolute;
+    bottom:0;
+    right:0;
 }
 
 footer {
