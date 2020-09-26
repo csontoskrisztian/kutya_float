@@ -31,7 +31,7 @@ De ez nem is csoda: az ausztrál pásztorkutya (australian cattle dog) nem csup�
 --INDEX.HTML--
 
 
---KÁRTYA LINK--
+--EXAMPLE.HTML--
 
 Az airedale terrier-t olykor a “terrierek királyaként” emlegetik, s a világ legrégebbi és legsokoldalúbban használt munkakutyáinak egyike. Manapság ez a közepes termetű, összetéveszthetetlen külsejű és barátságos jellemű négylábú kedvelt családi kutya.
 
