@@ -80,6 +80,42 @@ main h1 {
     font-size: 48px;
 }
 
+.card {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 10px;
+    width: 280px;
+    height: auto;
+}
+
+.card .card-image {
+    height: 200px;
+    background: top center;
+}
+
+.card .card-content{
+    padding: 5px;
+}
+
+.card .card-content h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.card .card-content p {
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.card .card-content a {
+    background: #3CB371;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
